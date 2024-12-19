@@ -1,6 +1,7 @@
 /* Name, Date */
 body {
     background-color: bisque;
+    background: linear-gradient(bisque, rgb(213, 169, 114));
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -21,7 +22,7 @@ th, td {
 
 th {
     font-size:x-large;
-    background-color: rgba(231, 231, 51, 0.534);
+    background-color: rgba(230, 199, 78, 0.534);
 }
 
 .table_sort {
@@ -41,5 +42,21 @@ h1 {
 
 img {
     height: 250px;
+
+
 }
 
+p {
+    background: local;
+    background-color: rgba(230, 199, 78, 0.534);
+    margin-left: 3cm;
+    margin-right: 3cm;
+    margin-bottom: 1cm;
+}
+
+#quote {
+    background: local;
+    background-color: rgba(230, 199, 78, 0.534);
+    margin-bottom: 1cm;
+    margin-top: 0.5cm;
+}
